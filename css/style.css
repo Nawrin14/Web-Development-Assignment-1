@@ -1,0 +1,82 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #f2f2f2;
+}
+
+.container{
+	padding: 0 20px;
+}
+
+.clear{
+	clear: both;
+}
+
+.grid{
+	width: 33.33%;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.grid-wrapper{
+	box-shadow: 1px 1px 8px #666;
+}
+
+.grid-images{
+	line-height: 0;
+}
+
+.grid-images img{
+	width: 100%;
+}
+
+.grid-title{
+	background-color: #FFFFFF;	
+}
+
+.grid-title h4, .grid-title p{
+	margin: 0;
+	padding: 16px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.grid-title p{
+	padding-top: 0;
+	font-size: 17px;
+	color: #999;
+}
+
+h1{
+	text-align: center;
+	font-size: 60px;
+	padding: 10px 0;
+}
+
+@media (max-width: 768px){
+.grid{
+	width: 50%;
+	float: left;
+}
+.grid-title h4{
+	font-size: 26px;
+}
+.grid-title p{
+	font-size: 23px;
+}
+}
+
+@media (max-width: 575px){
+.grid{
+	width: 100%;
+	float: none;
+}
+.grid-title h4{
+	font-size: 32px;
+}
+.grid-title p{
+	font-size: 26px;
+}
+}
+
